@@ -2,7 +2,7 @@ pipeline {
     agent any
      environment{
         DOCKERHUB_CREDENCIALS = credentials ('dockerhub')
-        RepoDockerHub = 'planeta5062'
+        RepoDockerHub = 'franvalle'
         NameContainer = 'pokedex-flask'
     }
     stages {
