@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Push image to Dockerhub'){
             steps{
-                sh "docker push ${env.RepoDockerHub}/${env.NameContainer}:${env.BUILD_NUMBER} ."
+                sh "docker push ${env.RepoDockerHub}/${env.NameContainer}:${env.BUILD_NUMBER} "
             }
         }
     }
