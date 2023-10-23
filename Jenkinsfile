@@ -6,5 +6,5 @@ pipeline {
                 sh "docker build -t franvalle/pokedex-flask:${env.BUILD_NUMBER} ."
             }
         }
-      }
+    }
 }
